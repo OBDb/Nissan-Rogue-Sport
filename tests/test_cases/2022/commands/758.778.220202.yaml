@@ -1,8 +1,8 @@
 command_id: 758.778.220202
 test_cases:
 - expected_values:
-    RSPORT_TP_FR: 29.5
-  response: '7780462020276'
+    RSPORT_TP_FR: null
+  response: '7780462020200'
 - expected_values:
     RSPORT_TP_FR: 38.5
   response: 778046202029A
