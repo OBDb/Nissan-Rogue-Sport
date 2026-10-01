@@ -1,8 +1,8 @@
 command_id: 758.778.220203
 test_cases:
 - expected_values:
-    RSPORT_TP_RR: 30.75
-  response: 778046202037B
+    RSPORT_TP_RR: null
+  response: '7780462020300'
 - expected_values:
     RSPORT_TP_RR: 37
   response: '7780462020394'
