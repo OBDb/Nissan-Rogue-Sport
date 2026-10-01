@@ -48,6 +48,8 @@ supported_commands_by_ecu:
   - 7E0.012F:FLI
   - 7E0.01A6:ODO
   - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
+  "7E1":
+  - 7E1.7E9.221204|din=C0,dout=81:RSPORT_TCM_RPM
 unsupported_commands_by_ecu:
   "723":
   - 723.735.220101:RSPORT_YAW_RATE
