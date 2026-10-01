@@ -1,0 +1,5 @@
+command_id: 758.778.220210
+test_cases:
+- expected_values:
+    RSPORT_TPW_RL: 26.5
+  response: 778046202106A
