@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RSPORT_TCM_SEC_RPM: 0
   response: '7E9056212030000'
+- expected_values:
+    RSPORT_TCM_SEC_RPM: 1126
+  response: '7E9056212030466'

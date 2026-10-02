@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RSPORT_TCM_PRI_P_V: 0.7478
   response: '7E9056212060099'
+- expected_values:
+    RSPORT_TCM_PRI_P_V: 0.77224
+  response: 7E905621206009E
+- expected_values:
+    RSPORT_TCM_PRI_P_V: 1.2219
+  response: 7E90562120600FA

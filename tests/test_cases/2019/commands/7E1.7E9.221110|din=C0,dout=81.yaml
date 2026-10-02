@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RSPORT_TCM_SEL_P_TGT: 0
   response: '7E90462111000'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 475
+  response: '7E90462111013'
