@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RSPORT_TCM_ATF_T_V: 1.18768
   response: 7E90562120700F3
+- expected_values:
+    RSPORT_TCM_ATF_T_V: 1.78397
+  response: 7E905621207016D
+- expected_values:
+    RSPORT_TCM_ATF_T_V: 1.80352
+  response: '7E9056212070171'

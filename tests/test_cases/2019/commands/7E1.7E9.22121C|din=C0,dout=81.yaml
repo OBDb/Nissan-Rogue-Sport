@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RSPORT_TCM_SEC_SOL_C: 0.003
   response: 7E90562121C031C
+- expected_values:
+    RSPORT_TCM_SEC_SOL_C: 0.003
+  response: 7E90562121C0324
+- expected_values:
+    RSPORT_TCM_SEC_SOL_C: 0.003
+  response: 7E90562121C0341
