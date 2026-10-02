@@ -52,6 +52,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.22111F
   "7E1":
   - 7E1.7E9.221204|din=C0,dout=81:RSPORT_TCM_RPM
+  - 7E1.7E9.22120C|din=C0,dout=81:RSPORT_TCM_INPUT_RPM_2
 unsupported_commands_by_ecu:
   "723":
   - 723.735.220101:RSPORT_YAW_RATE
@@ -83,3 +84,5 @@ unsupported_commands_by_ecu:
   - 797.79A.22131A
   "79B":
   - 79B.7BB.210C
+  "7E1":
+  - 7E1.7E9.221213|din=C0,dout=81:RSPORT_TCM_ENG_TQ_TX
