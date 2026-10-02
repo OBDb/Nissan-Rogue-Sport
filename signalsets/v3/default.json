@@ -158,7 +158,7 @@
   "signals": [
     {"id": "RSPORT_TCM_G_V", "path": "Transmission", "fmt": { "len": 16, "max": 3.27, "min": -3.27, "div": 10000, "sign": true, "unit": "volts" }, "name": "Acceleration sensor voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "120C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "120C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "RSPORT_TCM_INPUT_RPM_2", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Input speed, alternate"}
   ]},
