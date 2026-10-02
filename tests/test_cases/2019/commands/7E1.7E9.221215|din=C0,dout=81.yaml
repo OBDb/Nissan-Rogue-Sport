@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.221215|din=C0,dout=81
 test_cases:
 - expected_values:
+    RSPORT_TCM_PRI_TQ: 125.6
+  response: 7E90562121504E8
+- expected_values:
+    RSPORT_TCM_PRI_TQ: -27.1
+  response: 7E905621215FEF1
+- expected_values:
     RSPORT_TCM_PRI_TQ: -26
   response: 7E905621215FEFC

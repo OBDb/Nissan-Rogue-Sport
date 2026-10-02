@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.221212|din=C0,dout=81
 test_cases:
 - expected_values:
+    RSPORT_TCM_ENG_TQ_ACT: 11.5
+  response: '7E9056212120073'
+- expected_values:
+    RSPORT_TCM_ENG_TQ_ACT: -2.5
+  response: 7E905621212FFE7
+- expected_values:
     RSPORT_TCM_ENG_TQ_ACT: -2
   response: 7E905621212FFEC

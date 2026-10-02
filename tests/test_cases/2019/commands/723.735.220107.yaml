@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RSPORT_RADAR_DISTANCE: 5.5
   response: '735056201070037'
+- expected_values:
+    RSPORT_RADAR_DISTANCE: 6.1
+  response: 73505620107003D
+- expected_values:
+    RSPORT_RADAR_DISTANCE: 8.7
+  response: '735056201070057'

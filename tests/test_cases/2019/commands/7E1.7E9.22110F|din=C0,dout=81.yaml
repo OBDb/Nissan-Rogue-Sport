@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RSPORT_TCM_PRI_P_TGT: 500
   response: 7E90462110F14
+- expected_values:
+    RSPORT_TCM_PRI_P_TGT: 1325
+  response: 7E90462110F35

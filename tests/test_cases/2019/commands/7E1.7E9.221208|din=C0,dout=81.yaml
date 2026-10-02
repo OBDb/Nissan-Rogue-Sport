@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RSPORT_TCM_G_V: 0.038
   response: 7E905621208017C
+- expected_values:
+    RSPORT_TCM_G_V: -0.02
+  response: 7E905621208FF38
