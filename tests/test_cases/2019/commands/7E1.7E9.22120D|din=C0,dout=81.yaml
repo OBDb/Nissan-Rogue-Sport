@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22120D|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_PRI_RPM_2: 19
+  response: 7E90562120D0013

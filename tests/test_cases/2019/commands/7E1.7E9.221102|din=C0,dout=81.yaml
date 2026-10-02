@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221102|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_VSS_EST: 0
+  response: '7E90462110200'
