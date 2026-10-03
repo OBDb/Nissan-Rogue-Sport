@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.221208|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_G_V: 0.038
-  response: 7E905621208017C
+    RSPORT_TCM_G_V: 0.004
+  response: '7E9056212080028'
 - expected_values:
-    RSPORT_TCM_G_V: -0.02
-  response: 7E905621208FF38
+    RSPORT_TCM_G_V: -0.051
+  response: 7E905621208FE02
+- expected_values:
+    RSPORT_TCM_G_V: -0.026
+  response: 7E905621208FEFC
+- expected_values:
+    RSPORT_TCM_G_V: -0.024
+  response: 7E905621208FF10

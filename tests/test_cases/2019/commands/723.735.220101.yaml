@@ -4,5 +4,8 @@ test_cases:
     RSPORT_YAW_RATE: 0
   response: '735056201010000'
 - expected_values:
-    RSPORT_YAW_RATE: -10
-  response: 73505620101FF9C
+    RSPORT_YAW_RATE: -19.4
+  response: 73505620101FF3E
+- expected_values:
+    RSPORT_YAW_RATE: -0.1
+  response: 73505620101FFFF

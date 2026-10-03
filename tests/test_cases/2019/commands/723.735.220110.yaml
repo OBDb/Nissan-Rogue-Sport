@@ -1,11 +1,11 @@
 command_id: 723.735.220110
 test_cases:
 - expected_values:
-    RSPORT_STEER_ANGLE: 242.1
-  response: '735056201100975'
+    RSPORT_STEER_ANGLE: 0.2
+  response: '735056201100002'
 - expected_values:
-    RSPORT_STEER_ANGLE: -13
-  response: 73505620110FF7E
+    RSPORT_STEER_ANGLE: -24.8
+  response: 73505620110FF08
 - expected_values:
-    RSPORT_STEER_ANGLE: -10.6
-  response: 73505620110FF96
+    RSPORT_STEER_ANGLE: -0.1
+  response: 73505620110FFFF
