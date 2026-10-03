@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22110D|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_LUBE_P: 70
-  response: 7E90462110D07
+    RSPORT_TCM_LUBE_P: 10
+  response: 7E90462110D01
 - expected_values:
-    RSPORT_TCM_LUBE_P: -500
-  response: 7E90462110DCE
+    RSPORT_TCM_LUBE_P: -30
+  response: 7E90462110DFD

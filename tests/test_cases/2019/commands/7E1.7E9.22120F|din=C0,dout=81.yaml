@@ -1,11 +1,14 @@
 command_id: 7E1.7E9.22120F|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_RPM_2: 807
-  response: 7E90562120F0327
+    RSPORT_TCM_RPM_2: 606
+  response: 7E90562120F025E
 - expected_values:
-    RSPORT_TCM_RPM_2: 1210
-  response: 7E90562120F04BA
+    RSPORT_TCM_RPM_2: 1539
+  response: 7E90562120F0603
 - expected_values:
-    RSPORT_TCM_RPM_2: 1214
-  response: 7E90562120F04BE
+    RSPORT_TCM_RPM_2: 2559
+  response: 7E90562120F09FF
+- expected_values:
+    RSPORT_TCM_RPM_2: 2593
+  response: 7E90562120F0A21

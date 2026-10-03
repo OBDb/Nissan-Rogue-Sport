@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.22110E|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_LINE_P: 1200
-  response: 7E90462110E30
+    RSPORT_TCM_LINE_P: 525
+  response: 7E90462110E15
 - expected_values:
-    RSPORT_TCM_LINE_P: 1250
-  response: 7E90462110E32
-- expected_values:
-    RSPORT_TCM_LINE_P: 2350
-  response: 7E90462110E5E
+    RSPORT_TCM_LINE_P: 4350
+  response: 7E90462110EAE

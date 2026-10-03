@@ -1,11 +1,11 @@
 command_id: 723.735.220107
 test_cases:
 - expected_values:
-    RSPORT_RADAR_DISTANCE: 5.5
-  response: '735056201070037'
+    RSPORT_RADAR_DISTANCE: 0
+  response: '735056201070000'
 - expected_values:
-    RSPORT_RADAR_DISTANCE: 6.1
-  response: 73505620107003D
+    RSPORT_RADAR_DISTANCE: 50.9
+  response: 7350562010701FD
 - expected_values:
-    RSPORT_RADAR_DISTANCE: 8.7
-  response: '735056201070057'
+    RSPORT_RADAR_DISTANCE: 86.9
+  response: '735056201070365'

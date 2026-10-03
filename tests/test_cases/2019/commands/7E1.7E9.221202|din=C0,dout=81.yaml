@@ -4,5 +4,8 @@ test_cases:
     RSPORT_TCM_PRI_RPM: 0
   response: '7E9056212020000'
 - expected_values:
-    RSPORT_TCM_PRI_RPM: 1108
-  response: '7E9056212020454'
+    RSPORT_TCM_PRI_RPM: 2301
+  response: 7E90562120208FD
+- expected_values:
+    RSPORT_TCM_PRI_RPM: 2585
+  response: 7E9056212020A19
