@@ -54,6 +54,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.221204|din=C0,dout=81:RSPORT_TCM_RPM
   - 7E1.7E9.22120C|din=C0,dout=81:RSPORT_TCM_INPUT_RPM_2
   - 7E1.7E9.221219|din=C0,dout=81:RSPORT_TCM_ISO_1_C
+  - 7E1.7E9.221223|din=C0,dout=81:RSPORT_TCM_SEL_SOL_MON
 unsupported_commands_by_ecu:
   "723":
   - 723.735.220101:RSPORT_YAW_RATE
