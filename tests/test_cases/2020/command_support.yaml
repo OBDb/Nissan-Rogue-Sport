@@ -62,6 +62,7 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "723":
   - 723.735.220101:RSPORT_YAW_RATE
+  - 723.735.220107:RSPORT_RADAR_DISTANCE
   - 723.735.220108:RSPORT_RADAR_SPEED
   - 723.735.220110:RSPORT_STEER_ANGLE
   "743":
