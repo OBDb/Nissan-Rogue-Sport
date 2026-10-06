@@ -52,6 +52,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.22111F
   - 7E0.7E8.221307|din=C0,dout=81:RSPORT_AC_COMP,RSPORT_IDLE_CTRL_MODE
   "7E1":
+  - 7E1.7E9.221102|din=C0,dout=81:RSPORT_TCM_VSS_EST
   - 7E1.7E9.221103|din=C0,dout=81:RSPORT_TCM_VSS
   - 7E1.7E9.221110|din=C0,dout=81:RSPORT_TCM_SEL_P_TGT
   - 7E1.7E9.221204|din=C0,dout=81:RSPORT_TCM_RPM
@@ -93,4 +94,5 @@ unsupported_commands_by_ecu:
   "79B":
   - 79B.7BB.210C
   "7E1":
+  - 7E1.7E9.221205|din=C0,dout=81:RSPORT_TCM_SEC_P_V
   - 7E1.7E9.221213|din=C0,dout=81:RSPORT_TCM_ENG_TQ_TX
