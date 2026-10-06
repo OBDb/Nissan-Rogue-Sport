@@ -74,7 +74,7 @@
   "signals": [
     {"id": "RSPORT_TCM_VSS_SENS", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed sensor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1102"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1102"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "RSPORT_TCM_VSS_EST", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Estimated vehicle speed"}
   ]},
