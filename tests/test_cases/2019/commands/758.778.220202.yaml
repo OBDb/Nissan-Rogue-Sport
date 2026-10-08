@@ -16,6 +16,9 @@ test_cases:
     RSPORT_TP_FR: 29.75
   response: '7780462020277'
 - expected_values:
+    RSPORT_TP_FR: 30
+  response: '7780462020278'
+- expected_values:
     RSPORT_TP_FR: 30.25
   response: '7780462020279'
 - expected_values:
