@@ -214,7 +214,7 @@
   "signals": [
     {"id": "RSPORT_TCM_PRI_SOL_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Primary solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "RSPORT_TCM_SEC_SOL_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Secondary solenoid current"}
   ]},

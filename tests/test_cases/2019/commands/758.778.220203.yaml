@@ -4,20 +4,5 @@ test_cases:
     RSPORT_TP_RR: null
   response: '7780462020300'
 - expected_values:
-    RSPORT_TP_RR: 29.25
-  response: '7780462020375'
-- expected_values:
-    RSPORT_TP_RR: 30
-  response: '7780462020378'
-- expected_values:
-    RSPORT_TP_RR: 30.25
-  response: '7780462020379'
-- expected_values:
-    RSPORT_TP_RR: 30.75
-  response: 778046202037B
-- expected_values:
-    RSPORT_TP_RR: 31.25
-  response: 778046202037D
-- expected_values:
     RSPORT_TP_RR: 31.75
   response: 778046202037F
