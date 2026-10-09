@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22110C|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_ATF_T: 33
-  response: 7E90462110C49
+    RSPORT_TCM_ATF_T: 25
+  response: 7E90462110C41
 - expected_values:
     RSPORT_TCM_ATF_T: 85
   response: 7E90462110C7D
