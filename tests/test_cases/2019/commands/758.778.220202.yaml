@@ -4,5 +4,8 @@ test_cases:
     RSPORT_TP_FR: null
   response: '7780462020200'
 - expected_values:
+    RSPORT_TP_FR: 27
+  response: 778046202026C
+- expected_values:
     RSPORT_TP_FR: 31.75
   response: 778046202027F
