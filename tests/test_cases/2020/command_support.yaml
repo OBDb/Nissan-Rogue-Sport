@@ -67,6 +67,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.221219|din=C0,dout=81:RSPORT_TCM_ISO_1_C
   - 7E1.7E9.22121C|din=C0,dout=81:RSPORT_TCM_SEC_SOL_C
   - 7E1.7E9.22121D|din=C0,dout=81:RSPORT_TCM_SEL_SOL_C
+  - 7E1.7E9.221221|din=C0,dout=81:RSPORT_TCM_PRI_SOL_MON
   - 7E1.7E9.221222|din=C0,dout=81:RSPORT_TCM_SEC_SOL_MON
   - 7E1.7E9.221223|din=C0,dout=81:RSPORT_TCM_SEL_SOL_MON
 unsupported_commands_by_ecu:
@@ -106,3 +107,4 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.221203|din=C0,dout=81:RSPORT_TCM_SEC_RPM
   - 7E1.7E9.221205|din=C0,dout=81:RSPORT_TCM_SEC_P_V
   - 7E1.7E9.221213|din=C0,dout=81:RSPORT_TCM_ENG_TQ_TX
+  - 7E1.7E9.221216|din=C0,dout=81:RSPORT_TCM_TQ_RAT
