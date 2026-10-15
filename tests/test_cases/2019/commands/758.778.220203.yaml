@@ -7,5 +7,5 @@ test_cases:
     RSPORT_TP_RR: 27.75
   response: 778046202036F
 - expected_values:
-    RSPORT_TP_RR: 36.75
-  response: '7780462020393'
+    RSPORT_TP_RR: 37.75
+  response: '7780462020397'
