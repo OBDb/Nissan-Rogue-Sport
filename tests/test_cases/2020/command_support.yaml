@@ -107,6 +107,8 @@ unsupported_commands_by_ecu:
   - 797.79A.22131A
   "79B":
   - 79B.7BB.210C
+  "7E0":
+  - 7E0.7E8.221266:RSPORT_VVT_EOT
   "7E1":
   - 7E1.7E9.221203|din=C0,dout=81:RSPORT_TCM_SEC_RPM
   - 7E1.7E9.221205|din=C0,dout=81:RSPORT_TCM_SEC_P_V
