@@ -170,7 +170,7 @@
   "signals": [
     {"id": "RSPORT_TCM_PRI_RPM_2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Primary pulley speed, alternate"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "120E"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "120E"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "RSPORT_TCM_SEC_RPM_2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Secondary pulley speed, alternate"}
   ]},
