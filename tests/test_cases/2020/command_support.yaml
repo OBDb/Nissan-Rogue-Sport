@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
   - 7E0.0143:LOAD_ABS
+  - 7E0.0144:EQ_RAT
   - 7E0.01A6:ODO
   - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
   - 7E0.7E8.221101|din=C0,dout=81:NI_ECT
