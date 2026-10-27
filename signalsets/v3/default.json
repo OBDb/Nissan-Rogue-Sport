@@ -210,7 +210,7 @@
   "signals": [
     {"id": "RSPORT_TCM_ISO_1_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Isolation solenoid 1 current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "121A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "RSPORT_TCM_ISO_2_C", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Isolation solenoid 2 current"}
   ]},
