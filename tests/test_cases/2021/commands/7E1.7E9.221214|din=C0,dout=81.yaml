@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.221214|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 1
+  response: 7E905621214000A
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 1.5
+  response: 7E905621214000F
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 2
+  response: '7E9056212140014'
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 2.5
+  response: '7E9056212140019'
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 2.7
+  response: 7E905621214001B
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 3
+  response: 7E905621214001E
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 3.5
+  response: '7E9056212140023'
+- expected_values:
+    RSPORT_TCM_ENG_TQ: 4
+  response: '7E9056212140028'
+- expected_values:
+    RSPORT_TCM_ENG_TQ: -0.7
+  response: 7E905621214FFF9
