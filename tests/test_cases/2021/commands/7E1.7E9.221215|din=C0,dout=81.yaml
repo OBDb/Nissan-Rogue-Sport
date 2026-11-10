@@ -4,5 +4,11 @@ test_cases:
     RSPORT_TCM_PRI_TQ: 25.9
   response: '7E9056212150103'
 - expected_values:
-    RSPORT_TCM_PRI_TQ: -25.9
-  response: 7E905621215FEFD
+    RSPORT_TCM_PRI_TQ: 127.9
+  response: 7E90562121504FF
+- expected_values:
+    RSPORT_TCM_PRI_TQ: 179.2
+  response: '7E9056212150700'
+- expected_values:
+    RSPORT_TCM_PRI_TQ: -27.4
+  response: 7E905621215FEEE

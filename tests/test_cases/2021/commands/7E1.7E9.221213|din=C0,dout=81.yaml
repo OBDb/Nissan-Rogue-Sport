@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221213|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_ENG_TQ_TX: 2
-  response: '7E9056212130014'
+    RSPORT_TCM_ENG_TQ_TX: 0
+  response: '7E9056212130000'
 - expected_values:
-    RSPORT_TCM_ENG_TQ_TX: 22
-  response: 7E90562121300DC
+    RSPORT_TCM_ENG_TQ_TX: 24
+  response: 7E90562121300F0
 - expected_values:
     RSPORT_TCM_ENG_TQ_TX: -10
   response: 7E905621213FF9C

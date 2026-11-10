@@ -1,29 +1,14 @@
 command_id: 7E1.7E9.221210|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.6342
-  response: 7E90562121018C6
+    RSPORT_TCM_PULLEY_RAT: 0.3845
+  response: 7E9056212100F05
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.7761
-  response: 7E9056212101E51
+    RSPORT_TCM_PULLEY_RAT: 0.5632
+  response: '7E9056212101600'
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.842
-  response: 7E90562121020E4
-- expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.8621
-  response: 7E90562121021AD
-- expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.9244
-  response: 7E905621210241C
-- expected_values:
-    RSPORT_TCM_PULLEY_RAT: 2.5995
-  response: 7E905621210658B
-- expected_values:
-    RSPORT_TCM_PULLEY_RAT: 2.6509
-  response: 7E905621210678D
-- expected_values:
-    RSPORT_TCM_PULLEY_RAT: 2.7089
-  response: 7E90562121069D1
+    RSPORT_TCM_PULLEY_RAT: 0.7674
+  response: 7E9056212101DFA
 - expected_values:
     RSPORT_TCM_PULLEY_RAT: 2.727
   response: 7E9056212106A86

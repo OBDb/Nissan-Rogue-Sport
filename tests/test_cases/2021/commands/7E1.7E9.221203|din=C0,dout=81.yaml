@@ -4,29 +4,8 @@ test_cases:
     RSPORT_TCM_SEC_RPM: 0
   response: '7E9056212030000'
 - expected_values:
-    RSPORT_TCM_SEC_RPM: 68
-  response: '7E9056212030044'
+    RSPORT_TCM_SEC_RPM: 1012
+  response: 7E90562120303F4
 - expected_values:
-    RSPORT_TCM_SEC_RPM: 131
-  response: '7E9056212030083'
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 174
-  response: 7E90562120300AE
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 302
-  response: 7E905621203012E
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 1463
-  response: 7E90562120305B7
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 1902
-  response: 7E905621203076E
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 2107
-  response: 7E905621203083B
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 2686
-  response: 7E9056212030A7E
-- expected_values:
-    RSPORT_TCM_SEC_RPM: 2719
-  response: 7E9056212030A9F
+    RSPORT_TCM_SEC_RPM: 6327
+  response: 7E90562120318B7

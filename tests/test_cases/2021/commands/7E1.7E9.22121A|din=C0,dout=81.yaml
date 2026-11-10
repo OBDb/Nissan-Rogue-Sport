@@ -5,7 +5,7 @@ test_cases:
   response: 7E90562121A0190
 - expected_values:
     RSPORT_TCM_ISO_2_C: 0.002
-  response: 7E90562121A02EE
+  response: 7E90562121A02FD
 - expected_values:
     RSPORT_TCM_ISO_2_C: 0.003
   response: 7E90562121A0300

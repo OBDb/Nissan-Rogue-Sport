@@ -4,11 +4,11 @@ test_cases:
     RSPORT_TCM_RPM: 520
   response: '7E9056212040208'
 - expected_values:
-    RSPORT_TCM_RPM: 1515
-  response: 7E90562120405EB
+    RSPORT_TCM_RPM: 1537
+  response: '7E9056212040601'
 - expected_values:
-    RSPORT_TCM_RPM: 1542
-  response: '7E9056212040606'
+    RSPORT_TCM_RPM: 2043
+  response: 7E90562120407FB
 - expected_values:
-    RSPORT_TCM_RPM: 1800
-  response: '7E9056212040708'
+    RSPORT_TCM_RPM: 3221
+  response: 7E9056212040C95

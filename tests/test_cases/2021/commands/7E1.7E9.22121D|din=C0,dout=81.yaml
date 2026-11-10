@@ -2,10 +2,10 @@ command_id: 7E1.7E9.22121D|din=C0,dout=81
 test_cases:
 - expected_values:
     RSPORT_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02B3
+  response: 7E90562121D02AF
 - expected_values:
     RSPORT_TCM_SEL_SOL_C: 0.002
   response: 7E90562121D02F8
 - expected_values:
     RSPORT_TCM_SEL_SOL_C: 0.003
-  response: 7E90562121D0303
+  response: 7E90562121D0302
