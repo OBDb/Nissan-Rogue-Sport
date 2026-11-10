@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221207|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_ATF_T_V: 0.81623
+  response: 7E90562120700A7
+- expected_values:
+    RSPORT_TCM_ATF_T_V: 0.93353
+  response: 7E90562120700BF

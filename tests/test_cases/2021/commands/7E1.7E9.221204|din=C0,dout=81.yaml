@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221204|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_RPM: 634
+  response: 7E905621204027A
+- expected_values:
+    RSPORT_TCM_RPM: 726
+  response: 7E90562120402D6

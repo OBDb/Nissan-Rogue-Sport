@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221221|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100CA
+- expected_values:
+    RSPORT_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100CB
+- expected_values:
+    RSPORT_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100CC
+- expected_values:
+    RSPORT_TCM_PRI_SOL_MON: 0
+  response: 7E90562122100CD
