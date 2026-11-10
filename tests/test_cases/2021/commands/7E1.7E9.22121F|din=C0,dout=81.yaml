@@ -2,7 +2,7 @@ command_id: 7E1.7E9.22121F|din=C0,dout=81
 test_cases:
 - expected_values:
     RSPORT_TCM_SOL_MON_2: 0
-  response: 7E90562121F006B
+  response: 7E90562121F0000
 - expected_values:
     RSPORT_TCM_SOL_MON_2: 0
-  response: 7E90562121F00D1
+  response: 7E90562121F00D3

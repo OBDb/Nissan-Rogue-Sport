@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.221210|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.3845
-  response: 7E9056212100F05
+    RSPORT_TCM_PULLEY_RAT: 0.383
+  response: 7E9056212100EF6
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.5632
-  response: '7E9056212101600'
+    RSPORT_TCM_PULLEY_RAT: 0.3837
+  response: 7E9056212100EFD
 - expected_values:
-    RSPORT_TCM_PULLEY_RAT: 0.7674
-  response: 7E9056212101DFA
+    RSPORT_TCM_PULLEY_RAT: 0.4352
+  response: '7E9056212101100'
 - expected_values:
     RSPORT_TCM_PULLEY_RAT: 2.727
   response: 7E9056212106A86

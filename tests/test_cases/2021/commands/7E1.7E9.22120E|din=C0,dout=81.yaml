@@ -4,11 +4,11 @@ test_cases:
     RSPORT_TCM_SEC_RPM_2: 51
   response: 7E90562120E0033
 - expected_values:
-    RSPORT_TCM_SEC_RPM_2: 254
-  response: 7E90562120E00FE
+    RSPORT_TCM_SEC_RPM_2: 511
+  response: 7E90562120E01FF
 - expected_values:
-    RSPORT_TCM_SEC_RPM_2: 2057
-  response: 7E90562120E0809
+    RSPORT_TCM_SEC_RPM_2: 5632
+  response: 7E90562120E1600
 - expected_values:
-    RSPORT_TCM_SEC_RPM_2: 6328
-  response: 7E90562120E18B8
+    RSPORT_TCM_SEC_RPM_2: 6433
+  response: 7E90562120E1921

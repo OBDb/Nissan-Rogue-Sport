@@ -7,8 +7,8 @@ test_cases:
     RSPORT_TCM_ENG_TQ: 128
   response: '7E9056212140500'
 - expected_values:
-    RSPORT_TCM_ENG_TQ: -2.1
-  response: 7E905621214FFEB
+    RSPORT_TCM_ENG_TQ: -3
+  response: 7E905621214FFE2
 - expected_values:
     RSPORT_TCM_ENG_TQ: -0.7
   response: 7E905621214FFF9
