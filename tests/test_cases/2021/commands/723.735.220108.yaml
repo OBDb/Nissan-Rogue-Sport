@@ -4,5 +4,8 @@ test_cases:
     RSPORT_RADAR_SPEED: 0
   response: '735056201080000'
 - expected_values:
+    RSPORT_RADAR_SPEED: -11.6
+  response: 73505620108FF8C
+- expected_values:
     RSPORT_RADAR_SPEED: -0.1
   response: 73505620108FFFF

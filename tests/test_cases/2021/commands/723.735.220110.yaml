@@ -1,32 +1,11 @@
 command_id: 723.735.220110
 test_cases:
 - expected_values:
-    RSPORT_STEER_ANGLE: -64.6
-  response: 73505620110FD7A
+    RSPORT_STEER_ANGLE: 3.1
+  response: 73505620110001F
 - expected_values:
-    RSPORT_STEER_ANGLE: -47.8
-  response: 73505620110FE22
-- expected_values:
-    RSPORT_STEER_ANGLE: -46.2
-  response: 73505620110FE32
-- expected_values:
-    RSPORT_STEER_ANGLE: -42.2
-  response: 73505620110FE5A
-- expected_values:
-    RSPORT_STEER_ANGLE: -36.6
-  response: 73505620110FE92
-- expected_values:
-    RSPORT_STEER_ANGLE: -35
-  response: 73505620110FEA2
-- expected_values:
-    RSPORT_STEER_ANGLE: -31.8
-  response: 73505620110FEC2
+    RSPORT_STEER_ANGLE: 24
+  response: 7350562011000F0
 - expected_values:
     RSPORT_STEER_ANGLE: -25.4
   response: 73505620110FF02
-- expected_values:
-    RSPORT_STEER_ANGLE: -23.8
-  response: 73505620110FF12
-- expected_values:
-    RSPORT_STEER_ANGLE: -23
-  response: 73505620110FF1A

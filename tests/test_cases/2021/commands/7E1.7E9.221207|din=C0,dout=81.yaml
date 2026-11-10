@@ -4,5 +4,8 @@ test_cases:
     RSPORT_TCM_ATF_T_V: 0.81623
   response: 7E90562120700A7
 - expected_values:
-    RSPORT_TCM_ATF_T_V: 0.93353
-  response: 7E90562120700BF
+    RSPORT_TCM_ATF_T_V: 1.21212
+  response: 7E90562120700F8
+- expected_values:
+    RSPORT_TCM_ATF_T_V: 1.25122
+  response: '7E9056212070100'

@@ -4,26 +4,8 @@ test_cases:
     RSPORT_TCM_ENG_TQ_ACT: 0.5
   response: '7E9056212120005'
 - expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 1
-  response: 7E905621212000A
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 1.5
-  response: 7E905621212000F
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 2
-  response: '7E9056212120014'
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 2.5
-  response: '7E9056212120019'
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 3
-  response: 7E905621212001E
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 3.5
-  response: '7E9056212120023'
-- expected_values:
-    RSPORT_TCM_ENG_TQ_ACT: 4
-  response: '7E9056212120028'
+    RSPORT_TCM_ENG_TQ_ACT: 73
+  response: 7E90562121202DA
 - expected_values:
     RSPORT_TCM_ENG_TQ_ACT: -14
   response: 7E905621212FF74
