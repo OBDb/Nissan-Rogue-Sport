@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     RSPORT_TCM_SEL_P_TGT: 0
   response: '7E90462111000'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 375
+  response: 7E9046211100F
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 425
+  response: '7E90462111011'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 450
+  response: '7E90462111012'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 475
+  response: '7E90462111013'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 575
+  response: '7E90462111017'
+- expected_values:
+    RSPORT_TCM_SEL_P_TGT: 825
+  response: '7E90462111021'

@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     RSPORT_TCM_VSS: 0
   response: '7E90462110300'
+- expected_values:
+    RSPORT_TCM_VSS: 2
+  response: '7E90462110302'
+- expected_values:
+    RSPORT_TCM_VSS: 7
+  response: '7E90462110307'
+- expected_values:
+    RSPORT_TCM_VSS: 8
+  response: '7E90462110308'
+- expected_values:
+    RSPORT_TCM_VSS: 26
+  response: 7E9046211031A
+- expected_values:
+    RSPORT_TCM_VSS: 39
+  response: '7E90462110327'
+- expected_values:
+    RSPORT_TCM_VSS: 41
+  response: '7E90462110329'
+- expected_values:
+    RSPORT_TCM_VSS: 50
+  response: '7E90462110332'
+- expected_values:
+    RSPORT_TCM_VSS: 53
+  response: '7E90462110335'

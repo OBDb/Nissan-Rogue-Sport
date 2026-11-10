@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     RSPORT_TCM_PRI_RPM_2: 19
   response: 7E90562120D0013
+- expected_values:
+    RSPORT_TCM_PRI_RPM_2: 988
+  response: 7E90562120D03DC
+- expected_values:
+    RSPORT_TCM_PRI_RPM_2: 2065
+  response: 7E90562120D0811

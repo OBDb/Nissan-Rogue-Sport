@@ -1,26 +1,14 @@
 command_id: 7E1.7E9.221205|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_SEC_P_V: 1.11926
-  response: 7E90562120500E5
+    RSPORT_TCM_SEC_P_V: 0.77713
+  response: 7E905621205009F
 - expected_values:
-    RSPORT_TCM_SEC_P_V: 1.17791
-  response: 7E90562120500F1
+    RSPORT_TCM_SEC_P_V: 1.24633
+  response: 7E90562120500FF
 - expected_values:
-    RSPORT_TCM_SEC_P_V: 1.19257
-  response: 7E90562120500F4
+    RSPORT_TCM_SEC_P_V: 1.27077
+  response: '7E9056212050104'
 - expected_values:
-    RSPORT_TCM_SEC_P_V: 1.19746
-  response: 7E90562120500F5
-- expected_values:
-    RSPORT_TCM_SEC_P_V: 1.20235
-  response: 7E90562120500F6
-- expected_values:
-    RSPORT_TCM_SEC_P_V: 1.20723
-  response: 7E90562120500F7
-- expected_values:
-    RSPORT_TCM_SEC_P_V: 1.21701
-  response: 7E90562120500F9
-- expected_values:
-    RSPORT_TCM_SEC_P_V: 1.3001
-  response: 7E905621205010A
+    RSPORT_TCM_SEC_P_V: 2.79081
+  response: 7E905621205023B
