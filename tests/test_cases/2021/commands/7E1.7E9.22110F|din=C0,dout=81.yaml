@@ -4,5 +4,5 @@ test_cases:
     RSPORT_TCM_PRI_P_TGT: 300
   response: 7E90462110F0C
 - expected_values:
-    RSPORT_TCM_PRI_P_TGT: 1450
-  response: 7E90462110F3A
+    RSPORT_TCM_PRI_P_TGT: 1750
+  response: 7E90462110F46

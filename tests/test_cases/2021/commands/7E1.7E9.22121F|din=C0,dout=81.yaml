@@ -5,4 +5,4 @@ test_cases:
   response: 7E90562121F006B
 - expected_values:
     RSPORT_TCM_SOL_MON_2: 0
-  response: 7E90562121F00CD
+  response: 7E90562121F00D1

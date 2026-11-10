@@ -4,8 +4,8 @@ test_cases:
     RSPORT_TCM_INPUT_RPM: 0
   response: '7E9056212010000'
 - expected_values:
-    RSPORT_TCM_INPUT_RPM: 494
-  response: 7E90562120101EE
+    RSPORT_TCM_INPUT_RPM: 2047
+  response: 7E90562120107FF
 - expected_values:
-    RSPORT_TCM_INPUT_RPM: 2351
-  response: 7E905621201092F
+    RSPORT_TCM_INPUT_RPM: 2857
+  response: 7E9056212010B29

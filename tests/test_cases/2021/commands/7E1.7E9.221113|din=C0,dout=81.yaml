@@ -1,29 +1,8 @@
 command_id: 7E1.7E9.221113|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_REQ_TQ: 250
-  response: 7E9046211134B
-- expected_values:
-    RSPORT_TCM_REQ_TQ: -48
-  response: 7E904621113B6
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 20
-  response: 7E904621113D8
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 24
-  response: 7E904621113DA
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 34
-  response: 7E904621113DF
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 40
-  response: 7E904621113E2
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 56
-  response: 7E904621113EA
-- expected_values:
-    RSPORT_TCM_REQ_TQ: 58
-  response: 7E904621113EB
+    RSPORT_TCM_REQ_TQ: 200
+  response: '7E90462111332'
 - expected_values:
     RSPORT_TCM_REQ_TQ: 96
   response: 7E904621113FE

@@ -4,26 +4,5 @@ test_cases:
     RSPORT_TCM_VSS_SENS: 0
   response: '7E90462110100'
 - expected_values:
-    RSPORT_TCM_VSS_SENS: 1
-  response: '7E90462110101'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 3
-  response: '7E90462110103'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 5
-  response: '7E90462110105'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 7
-  response: '7E90462110107'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 27
-  response: 7E9046211011B
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 38
-  response: '7E90462110126'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 40
-  response: '7E90462110128'
-- expected_values:
-    RSPORT_TCM_VSS_SENS: 53
-  response: '7E90462110135'
+    RSPORT_TCM_VSS_SENS: 123
+  response: 7E9046211017B

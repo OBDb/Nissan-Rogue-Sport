@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221111|din=C0,dout=81
 test_cases:
 - expected_values:
-    RSPORT_TCM_SEC_P_TGT: 675
-  response: 7E9046211111B
+    RSPORT_TCM_SEC_P_TGT: 300
+  response: 7E9046211110C
 - expected_values:
     RSPORT_TCM_SEC_P_TGT: 2750
   response: 7E9046211116E
