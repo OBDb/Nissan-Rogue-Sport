@@ -7,5 +7,5 @@ test_cases:
     RSPORT_STEER_ANGLE: -25.4
   response: 73505620110FF02
 - expected_values:
-    RSPORT_STEER_ANGLE: -0.3
-  response: 73505620110FFFD
+    RSPORT_STEER_ANGLE: -0.1
+  response: 73505620110FFFF

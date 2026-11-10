@@ -7,8 +7,8 @@ test_cases:
     RSPORT_TCM_PRI_RPM_2: 1536
   response: 7E90562120D0600
 - expected_values:
-    RSPORT_TCM_PRI_RPM_2: 2546
-  response: 7E90562120D09F2
+    RSPORT_TCM_PRI_RPM_2: 2293
+  response: 7E90562120D08F5
 - expected_values:
     RSPORT_TCM_PRI_RPM_2: 3236
   response: 7E90562120D0CA4

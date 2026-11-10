@@ -4,5 +4,5 @@ test_cases:
     RSPORT_TCM_VSS_EST: 0
   response: '7E90462110200'
 - expected_values:
-    RSPORT_TCM_VSS_EST: 123
-  response: 7E9046211027B
+    RSPORT_TCM_VSS_EST: 126
+  response: 7E9046211027E

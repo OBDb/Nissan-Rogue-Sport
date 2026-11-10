@@ -5,7 +5,7 @@ test_cases:
   response: 7E90562121D02AF
 - expected_values:
     RSPORT_TCM_SEL_SOL_C: 0.002
-  response: 7E90562121D02F8
+  response: 7E90562121D02FE
 - expected_values:
     RSPORT_TCM_SEL_SOL_C: 0.003
   response: 7E90562121D0302
