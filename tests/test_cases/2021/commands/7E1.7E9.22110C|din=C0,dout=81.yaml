@@ -4,5 +4,5 @@ test_cases:
     RSPORT_TCM_ATF_T: 13
   response: 7E90462110C35
 - expected_values:
-    RSPORT_TCM_ATF_T: 86
-  response: 7E90462110C7E
+    RSPORT_TCM_ATF_T: 87
+  response: 7E90462110C7F
