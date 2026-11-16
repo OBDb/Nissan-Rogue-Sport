@@ -118,7 +118,7 @@
   "signals": [
     {"id": "RSPORT_TCM_SEC_P_TGT", "path": "Transmission", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "kilopascal" }, "name": "Target secondary pulley pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1112"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1112"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_REQ_TQ_D", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque delta"}
   ]},
