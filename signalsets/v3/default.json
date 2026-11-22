@@ -3,56 +3,56 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "707", "rax": "727", "cmd": {"22": "0103"}, "freq": 1, "dbgfilter": { "to": 2020 },
+{ "hdr": "707", "rax": "727", "cmd": {"22": "0103"}, "freq": 1, "dbgfilter": { "to": 2019 },
   "signals": [
     {"id": "RSPORT_TURN_SIGNAL_RIGHT", "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal"},
     {"id": "RSPORT_TURN_SIGNAL_LEFT",  "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
   ]},
-{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0204"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020D"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TPW_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020E"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TPW_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "020F"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TPW_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure, warning"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 15, "dbgfilter": { "to": 2018, "years": [2020] },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0210"}, "freq": 15, "dbgfilter": { "to": 2018 },
   "signals": [
     {"id": "RSPORT_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
@@ -94,7 +94,7 @@
   "signals": [
     {"id": "RSPORT_TCM_PRI_P", "path": "Transmission", "fmt": { "len": 16, "max": 1638375, "mul": 25, "unit": "kilopascal" }, "name": "Primary pulley pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110C"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110C"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -106,7 +106,7 @@
   "signals": [
     {"id": "RSPORT_TCM_LINE_P", "path": "Transmission", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "kilopascal" }, "name": "Line pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110F"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "110F"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_PRI_P_TGT", "path": "Transmission", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "kilopascal" }, "name": "Target primary pulley pressure"}
   ]},
@@ -122,7 +122,7 @@
   "signals": [
     {"id": "RSPORT_TCM_REQ_TQ_D", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque delta"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1113"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1113"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_REQ_TQ", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque"}
   ]},
@@ -134,11 +134,11 @@
   "signals": [
     {"id": "RSPORT_TCM_INPUT_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1202"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1202"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_PRI_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Primary pulley speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1203"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1203"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_SEC_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Secondary pulley speed"}
   ]},
@@ -146,7 +146,7 @@
   "signals": [
     {"id": "RSPORT_TCM_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Engine speed", "suggestedMetric": "engineSpeed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_SEC_P_V", "path": "Transmission", "fmt": { "len": 16, "max": 320, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Secondary pressure sensor voltage"}
   ]},
@@ -186,7 +186,7 @@
   "signals": [
     {"id": "RSPORT_TCM_ENG_TQ_ACT", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque, active"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1213"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1213"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_ENG_TQ_TX", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque, transmitted"}
   ]},
@@ -194,11 +194,11 @@
   "signals": [
     {"id": "RSPORT_TCM_ENG_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1215"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1215"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_PRI_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Primary pulley torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1216"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1216"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2022 },
   "signals": [
     {"id": "RSPORT_TCM_TQ_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 236, "mul": 577, "div": 160000, "unit": "scalar" }, "name": "Torque ratio"}
   ]},

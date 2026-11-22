@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22110F|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_PRI_P_TGT: 500
+  response: 7E90462110F14

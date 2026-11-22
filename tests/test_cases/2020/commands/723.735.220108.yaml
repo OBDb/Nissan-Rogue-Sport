@@ -1,0 +1,5 @@
+command_id: 723.735.220108
+test_cases:
+- expected_values:
+    RSPORT_RADAR_SPEED: 0
+  response: '735056201080000'
