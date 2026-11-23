@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22121E|din=C0,dout=81
+test_cases:
+- expected_values:
+    RSPORT_TCM_SOL_MON_1: 0
+  response: 7E90562121E0000
